@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gyan Shala — Where Dreams Take Flight</title>
+  <meta name="description" content="Gyan Shala Faridabad - #1 Coaching Institute since 2015. Transform your academic journey with expert faculty and proven results.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      Gyan Shala
+      <span>Faridabad · Since 2015</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact" class="nav-cta">Enroll Now</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+
+    <div class="hero-row">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          #1 Coaching Institute · Faridabad
+        </div>
+        <h1 class="hero-title">
+          Where <span class="grad-text">Dreams</span><br>Take Flight
+        </h1>
+        <p class="hero-sub">
+          Gyan Shala transforms ordinary students into extraordinary achievers. 
+          Expert faculty, proven methods, and results that speak louder than words.
+        </p>
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="scrollToSection('contact')">
+            Enroll Now →
+          </button>
+          <button class="btn-outline" onclick="scrollToSection('results')">
+            See Results
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card reveal">
+          <div class="stat-num" data-target="500">0</div>
+          <div class="stat-label">Students Enrolled</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-1">
+          <div class="stat-num" data-target="99">0</div>
+          <div class="stat-label">Max Score in Maths</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-2">
+          <div class="stat-num" data-suffix="%">97</div>
+          <div class="stat-label">Average Result</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-3">
+          <div class="stat-num" data-suffix="★">4.9</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">Scroll</div>
+  </section>
+
+  <!-- ── TICKER ── -->
+  <div class="ticker-wrap">
+    <div class="ticker-inner">
+      <div class="ticker-item">🏆 99/100 in Maths <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">⭐ 4.9 Google Rating <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">📚 Recorded Lectures Available <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">✅ Weekly Mock Tests <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">🎯 97% Class 10th Results <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">💡 Doubt Solving Sessions <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">🏆 Best Institute in Faridabad <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">📖 Class 6 to 12 All Subjects <span class="ticker-sep">·</span></div>
+      <!-- duplicate for seamless loop -->
+      <div class="ticker-item">🏆 99/100 in Maths <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">⭐ 4.9 Google Rating <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">📚 Recorded Lectures Available <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">✅ Weekly Mock Tests <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">🎯 97% Class 10th Results <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">💡 Doubt Solving Sessions <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">🏆 Best Institute in Faridabad <span class="ticker-sep">·</span></div>
+      <div class="ticker-item">📖 Class 6 to 12 All Subjects <span class="ticker-sep">·</span></div>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-visual-inner">
+          <div class="about-icon-big">🎓</div>
+          <div class="about-chips">
+            <span class="chip">Dedicated Faculty</span>
+            <span class="chip">Small Batches</span>
+            <span class="chip">Recorded Classes</span>
+            <span class="chip">Affordable Fees</span>
+            <span class="chip">Result Oriented</span>
+            <span class="chip">Life Skills</span>
+          </div>
+          <div class="about-badge-float top-right">
+            <div class="ab-num">10+</div>
+            <div style="font-size:0.7rem;color:var(--text-muted)">Years of Excellence</div>
+          </div>
+          <div class="about-badge-float bottom-left">
+            <div class="ab-num">500+</div>
+            <div style="font-size:0.7rem;color:var(--text-muted)">Happy Students</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">Not Just Coaching — <span class="grad-text">We Shape Lives</span></h2>
+        <p class="section-sub">
+          Located in the heart of Ballabhgarh, Gyan Shala was founded with one mission: 
+          to make every student believe they can score top marks. Our students have gone 
+          from failing to scoring 97–100% — all because of dedicated, caring faculty.
+        </p>
+        <ul class="about-points">
+          <li>
+            <div class="apoint-icon">✓</div>
+            <span><strong>Transformational Results</strong> — Students who struggled in basics now score 97-100% in Board exams</span>
+          </li>
+          <li>
+            <div class="apoint-icon">✓</div>
+            <span><strong>Holistic Development</strong> — We don't just prepare for exams, we prepare students for life</span>
+          </li>
+          <li>
+            <div class="apoint-icon">✓</div>
+            <span><strong>Personalised Attention</strong> — Small batch sizes ensure every student gets individual focus</span>
+          </li>
+          <li>
+            <div class="apoint-icon">✓</div>
+            <span><strong>Recorded Lectures</strong> — Never miss a class; revisit any lesson anytime, anywhere</span>
+          </li>
+          <li>
+            <div class="apoint-icon">✓</div>
+            <span><strong>Transparent & Honest</strong> — No hidden fees, no gimmicks — just pure education</span>
+          </li>
+        </ul>
+        <div style="margin-top:2rem;">
+          <button class="btn-primary" onclick="scrollToSection('contact')">
+            Join Gyan Shala →
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ── COURSES ── -->
+<section id="courses">
+  <div style="text-align:center; margin-bottom:1rem;" class="reveal">
+    <div class="section-tag" style="margin-bottom:1rem;">Courses</div>
+    <h2 class="section-title">Programmes <span class="grad-text">We Offer</span></h2>
+    <p class="section-sub" style="margin:0 auto;">From foundational concepts to board exam mastery — we cover it all with precision.</p>
+  </div>
+  <div class="courses-grid">
+    <div class="course-card reveal">
+      <div class="course-num">01</div>
+      <div class="course-icon">📗</div>
+      <div class="course-title">Class 6–8 Foundation</div>
+      <div class="course-desc">Build strong fundamentals that make higher studies easier. Concept-first approach that sticks for life.</div>
+      <div class="course-tags"><span class="ctag">Maths</span><span class="ctag">Science</span><span class="ctag">English</span></div>
+    </div>
+    <div class="course-card reveal reveal-delay-1">
+      <div class="course-num">02</div>
+      <div class="course-icon">📘</div>
+      <div class="course-title">Class 9–10 Board Prep</div>
+      <div class="course-desc">Strategic board exam preparation with full-length tests, worksheets, and doubt-clearing sessions.</div>
+      <div class="course-tags"><span class="ctag">Maths</span><span class="ctag">Physics</span><span class="ctag">Chemistry</span><span class="ctag">Biology</span></div>
+    </div>
+    <div class="course-card reveal reveal-delay-2">
+      <div class="course-num">03</div>
+      <div class="course-icon">📙</div>
+      <div class="course-title">Class 11–12 Science</div>
+      <div class="course-desc">Deep-dive into Physics, Chemistry & Maths. Perfect for boards AND competitive exam foundation.</div>
+      <div class="course-tags"><span class="ctag">Physics</span><span class="ctag">Chemistry</span><span class="ctag">Maths</span></div>
+    </div>
+    <div class="course-card reveal reveal-delay-3">
+      <div class="course-num">04</div>
+      <div class="course-icon">🏆</div>
+      <div class="course-title">IIT-JEE Foundation</div>
+      <div class="course-desc">Early preparation for JEE aspirants. Conceptual clarity and problem-solving skills built from Class 9 itself.</div>
+      <div class="course-tags"><span class="ctag">Advanced Maths</span><span class="ctag">Physics</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY US ── -->
+<section id="why">
+  <div style="text-align:center;" class="reveal">
+    <div class="section-tag">Why Gyan Shala</div>
+    <h2 class="section-title" style="margin-top:0.5rem;">What Makes Us <span class="grad-text">Different</span></h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal"><div class="why-icon">📹</div><div class="why-title">Recorded Lectures</div><div class="why-desc">All classes recorded. Revise anytime, from anywhere. Never fall behind again.</div></div>
+    <div class="why-card reveal reveal-delay-1"><div class="why-icon">📝</div><div class="why-title">Weekly Mock Tests</div><div class="why-desc">Exam-like practice every week. Build speed, accuracy, and exam temperament.</div></div>
+    <div class="why-card reveal reveal-delay-2"><div class="why-icon">📋</div><div class="why-title">Worksheets After Every Class</div><div class="why-desc">Reinforce every concept with structured practice sheets distributed after each lecture.</div></div>
+    <div class="why-card reveal reveal-delay-3"><div class="why-icon">🎯</div><div class="why-title">Full-Length Test Series</div><div class="why-desc">Complete mock exams before boards — so students walk in fully prepared and confident.</div></div>
+    <div class="why-card reveal"><div class="why-icon">💬</div><div class="why-title">Doubt-Solving Sessions</div><div class="why-desc">No question goes unanswered. Dedicated sessions to clear every concept thoroughly.</div></div>
+    <div class="why-card reveal reveal-delay-1"><div class="why-icon">💰</div><div class="why-title">Affordable Fees</div><div class="why-desc">Zero hidden charges. Premium quality education at the most honest price point.</div></div>
+    <div class="why-card reveal reveal-delay-2"><div class="why-icon">🏫</div><div class="why-title">Clean Classrooms</div><div class="why-desc">Sanitized, well-maintained, professional learning environment for focused study.</div></div>
+    <div class="why-card reveal reveal-delay-3"><div class="why-icon">🤝</div><div class="why-title">Friendly Faculty</div><div class="why-desc">Teachers who are friends, philosophers, and guides — not just subject matter experts.</div></div>
+  </div>
+</section>
+
+<!-- ── FACULTY ── -->
+<section id="faculty">
+  <div style="text-align:center;" class="reveal">
+    <div class="section-tag">Our Faculty</div>
+    <h2 class="section-title" style="margin-top:0.5rem;">The Minds Behind <span class="grad-text">Your Success</span></h2>
+    <p class="section-sub" style="margin:0 auto;">Our teachers don't just teach subjects — they ignite passion, build confidence, and transform futures.</p>
+  </div>
+  <div class="faculty-grid">
+    <div class="faculty-card reveal">
+      <div class="faculty-avatar">K</div>
+      <div class="faculty-name">Komal Ma'am</div>
+      <div class="faculty-subject">⚡ Physics Expert</div>
+      <div class="faculty-bio">"Best Physics teacher in Faridabad. Students say: once you learn from her, you need no one else." Her teaching style combines clarity, passion, and real-world connections.</div>
+      <div class="faculty-stats">
+        <div class="fstat"><div class="fstat-num">99</div><div class="fstat-label">Max Score</div></div>
+        <div class="fstat"><div class="fstat-num">200+</div><div class="fstat-label">Students</div></div>
+        <div class="fstat"><div class="fstat-num">5★</div><div class="fstat-label">Rated</div></div>
+      </div>
+    </div>
+    <div class="faculty-card reveal reveal-delay-1">
+      <div class="faculty-avatar">A</div>
+      <div class="faculty-name">Arun Sir</div>
+      <div class="faculty-subject">🔢 Mathematics Expert</div>
+      <div class="faculty-bio">Under his guidance, students regularly score 99–100 in Maths. His method focuses on building fundamentals so strong that complex problems become effortless.</div>
+      <div class="faculty-stats">
+        <div class="fstat"><div class="fstat-num">100</div><div class="fstat-label">Max Score</div></div>
+        <div class="fstat"><div class="fstat-num">300+</div><div class="fstat-label">Students</div></div>
+        <div class="fstat"><div class="fstat-num">5★</div><div class="fstat-label">Rated</div></div>
+      </div>
+    </div>
+    <div class="faculty-card reveal reveal-delay-2">
+      <div class="faculty-avatar">G</div>
+      <div class="faculty-name">Gyan Shala Team</div>
+      <div class="faculty-subject">🌟 All-Round Support</div>
+      <div class="faculty-bio">A dedicated team of subject experts for Chemistry, Biology, and English — all aligned with the same philosophy: student success above everything else.</div>
+      <div class="faculty-stats">
+        <div class="fstat"><div class="fstat-num">8+</div><div class="fstat-label">Subjects</div></div>
+        <div class="fstat"><div class="fstat-num">10+</div><div class="fstat-label">Years</div></div>
+        <div class="fstat"><div class="fstat-num">4.9★</div><div class="fstat-label">Google</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── RESULTS ── -->
+<section id="results">
+  <div class="results-intro">
+    <div class="reveal">
+      <div class="section-tag">Student Results</div>
+      <h2 class="section-title">Our Students Speak<br><span class="grad-text">Through Their Marks 🏆</span></h2>
+      <p class="section-sub">Every percentage point here represents hours of dedication, expert guidance, and the Gyan Shala difference.</p>
+      <div style="margin-top:2rem;">
+        <button class="btn-primary" onclick="scrollToSection('contact')">
+          Be The Next Topper →
+        </button>
+      </div>
+    </div>
+    <div class="results-grid reveal reveal-delay-1">
+      <div class="result-card">
+        <div class="result-name">Daksh</div>
+        <div class="result-class">Class 10 · 2024</div>
+        <div class="result-score">99</div>
+        <div class="result-sub">Maths · 98 in Science</div>
+      </div>
+      <div class="result-card">
+        <div class="result-name">Anjali</div>
+        <div class="result-class">Class 10 · 2024</div>
+        <div class="result-score">100</div>
+        <div class="result-sub">Maths · 97 in Science</div>
+      </div>
+      <div class="result-card">
+        <div class="result-name">Dhruv</div>
+        <div class="result-class">Class 10 · 2024</div>
+        <div class="result-score">97%</div>
+        <div class="result-sub">Overall · 99 in Science</div>
+      </div>
+      <div class="result-card">
+        <div class="result-name">Akash</div>
+        <div class="result-class">Class 12 · 2025</div>
+        <div class="result-score">99</div>
+        <div class="result-sub">Physics · 95% Overall</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section id="testimonials">
+  <div style="text-align:center;" class="reveal">
+    <div class="section-tag">Reviews</div>
+    <h2 class="section-title" style="margin-top:0.5rem;">What <span class="grad-text">Students Say</span></h2>
+  </div>
+  <div class="testi-scroll">
+    <div class="testi-track" id="testiTrack">
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"This coaching didn't just prepare us for exams — it prepared us for life. A good teacher doesn't just teach lessons, they shape lives."</div><div class="testi-author"><div class="testi-avatar">P</div><div><div class="testi-name">Poonam Devender</div><div class="testi-meta">Class 10 Student</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Komal Mam is such a great teacher. She is a friend, philosopher and guide to me. I strongly recommend this highly underrated institute."</div><div class="testi-author"><div class="testi-avatar">G</div><div><div class="testi-name">Gopal Kumar</div><div class="testi-meta">Physics Student</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Before Gyan Shala, my son was failing almost all subjects. Now he has completely transformed. As a mother, I am filled with gratitude."</div><div class="testi-author"><div class="testi-avatar">R</div><div><div class="testi-name">Rajni Sisodia</div><div class="testi-meta">Parent</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"I scored 97 in science and 100 in maths — all because of the dedicated faculty. The recorded classes feature is the best thing about this institute."</div><div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Anjali Gupta</div><div class="testi-meta">Class 10 · Topper</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"I got 99 in Maths and 98 in Science because of their faculty. Regular assessments and full-length tests improved my score enormously. Thank you!"</div><div class="testi-author"><div class="testi-avatar">D</div><div><div class="testi-name">Daksh Sisodia</div><div class="testi-meta">Class 10 · 99 in Maths</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Best coaching in Haryana. They teach fundamentals so students can stay confident in future academics — not just fetch marks."</div><div class="testi-author"><div class="testi-avatar">V</div><div><div class="testi-name">Vishal</div><div class="testi-meta">Class 12 Student</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"I got 99 in Physics in 2025 even though that year's exam was very difficult. The worksheets after every class made a huge difference."</div><div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Akash Gupta</div><div class="testi-meta">Class 12 · 99 Physics</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Komal Ma'am is the best physics teacher in Faridabad. Inse padh liye toh kahi padhne ki zarurat nahi hai."</div><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Shashi Bhadana</div><div class="testi-meta">Physics Student</div></div></div></div>
+      <!-- duplicate -->
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"This coaching didn't just prepare us for exams — it prepared us for life. A good teacher doesn't just teach lessons, they shape lives."</div><div class="testi-author"><div class="testi-avatar">P</div><div><div class="testi-name">Poonam Devender</div><div class="testi-meta">Class 10 Student</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Komal Mam is such a great teacher. She is a friend, philosopher and guide to me. I strongly recommend this highly underrated institute."</div><div class="testi-author"><div class="testi-avatar">G</div><div><div class="testi-name">Gopal Kumar</div><div class="testi-meta">Physics Student</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"Before Gyan Shala, my son was failing almost all subjects. Now he has completely transformed. As a mother, I am filled with gratitude."</div><div class="testi-author"><div class="testi-avatar">R</div><div><div class="testi-name">Rajni Sisodia</div><div class="testi-meta">Parent</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-text">"I scored 97 in science and 100 in maths — all because of the dedicated faculty. The recorded classes feature is the best thing about this institute."</div><div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Anjali Gupta</div><div class="testi-meta">Class 10 · Topper</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="reveal">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Start Your <span class="grad-text">Journey Today</span></h2>
+      <p class="section-sub">Fill out the form and our team will contact you within 24 hours with all admission details.</p>
+      <div class="contact-info">
+        <div class="cinfo-card">
+          <div class="cinfo-icon">📍</div>
+          <div>
+            <div class="cinfo-label">Address</div>
+            <div class="cinfo-value">2066A, Main Road, Near Tagore Academy Public School,<br>HB Colony, Sector 3, Ballabhgarh, Faridabad, Haryana 121004</div>
+          </div>
+        </div>
+        <div class="cinfo-card">
+          <div class="cinfo-icon">📞</div>
+          <div>
+            <div class="cinfo-label">Phone</div>
+            <div class="cinfo-value" style="color:var(--g1); font-weight:700;">097735 07501</div>
+          </div>
+        </div>
+        <div class="cinfo-card">
+          <div class="cinfo-icon">🕙</div>
+          <div>
+            <div class="cinfo-label">Timings</div>
+            <div class="cinfo-value">Mon – Sat: 10:00 AM – 7:00 PM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-card reveal reveal-delay-1">
+      <div class="form-title">📝 Admission Enquiry</div>
+      <form id="enquiryForm" onsubmit="return submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-name">Student Name</label>
+            <input type="text" placeholder="Enter full name" id="f-name" required>
+          </div>
+          <div class="form-group">
+            <label for="f-phone">Phone Number</label>
+            <input type="tel" placeholder="Parent's mobile" id="f-phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-class">Current Class</label>
+            <select id="f-class" required>
+              <option value="">Select Class</option>
+              <option>Class 6</option><option>Class 7</option><option>Class 8</option>
+              <option>Class 9</option><option>Class 10</option>
+              <option>Class 11</option><option>Class 12</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-subject">Subject Interest</label>
+            <select id="f-subject" required>
+              <option value="">Select Subject</option>
+              <option>Mathematics</option><option>Physics</option><option>Chemistry</option>
+              <option>Biology</option><option>All Subjects</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-msg">Message (Optional)</label>
+          <textarea placeholder="Any specific queries or requirements..." id="f-msg"></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          Submit Enquiry →
+        </button>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div style="font-size:3rem;margin-bottom:1rem;">🎉</div>
+        <div style="font-size:1.2rem;font-weight:700;color:var(--g1);margin-bottom:0.5rem;">Enquiry Submitted!</div>
+        <div style="color:var(--text-muted);font-size:0.9rem;">Our team will contact you within 24 hours.<br>Welcome to the Gyan Shala family!</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="map-container reveal" style="margin-top: 4rem; width: 100%; border-radius: 20px; overflow: hidden; height: 450px; position: relative; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.2);">
+    <iframe 
+      src="https://maps.google.com/maps?q=2066A,%20Main%20Road,%20Near%20Tagore%20Academy%20Public%20School,%20HB%20Colony,%20Sector%203,%20Ballabhgarh,%20Faridabad,%20Haryana%20121004&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo">Gyan Shala</div>
+      <p>Where Dreams Take Flight — Unlocking Success with all our Might! Building future-ready students in Ballabhgarh, Faridabad since 2015.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#courses">Our Courses</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#results">Student Results</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:09773507501">📞 097735 07501</a></li>
+        <li><a href="https://maps.app.goo.gl/..." target="_blank">📍 Ballabhgarh, Faridabad</a></li>
+        <li><a href="#">🕙 Mon–Sat: 10AM–7PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Gyan Shala. All Rights Reserved. Faridabad, Haryana.</p>
+    <div class="footer-tagline">Where Dreams Take Flight ✈️</div>
+  </div>
+</footer>
+
+  <div id="chat-widget">
+    <button id="chat-toggle" onclick="toggleChat()">
+      <span class="chat-icon">💬</span>
+      <span class="chat-close-icon" style="display:none;">✕</span>
+    </button>
+    <div id="chat-window">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">GS</div>
+          <div>
+            <div class="chat-name">Gyan Shala AI</div>
+            <div class="chat-status">Always Online</div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-messages">
+        <div class="message bot">
+          <div class="message-content">Namaste! 👋 I'm your Gyan Shala assistant. How can I help you with our courses or admissions today?</div>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Ask about courses, fees, location..." onkeypress="handleChatEnter(event)">
+        <button id="chat-send" onclick="sendMessage()">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
