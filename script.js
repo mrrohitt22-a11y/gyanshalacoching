@@ -134,8 +134,8 @@ function submitForm(event) {
   submitBtn.innerHTML = "Sending... ⏳";
   
   // Google Apps Script Web App URL
-  // NOTE: Add your Google Script URL here (removed for GitHub push to avoid Secret Scanning block)
-  const SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_WEB_APP_URL';
+  // Google Apps Script Web App URL
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz8pRRo-ptModTy_HOpeEh81wFMYX2KwxSfuzk8WrdLtVkiDVJkeaTHAPeN-B0TZOYVrQ/exec';
   
   fetch(SCRIPT_URL, {
     method: 'POST',
